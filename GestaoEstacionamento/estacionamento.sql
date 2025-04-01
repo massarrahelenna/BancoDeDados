@@ -24,19 +24,6 @@ CREATE TABLE veiculos (
     FOREIGN KEY (id_professor) REFERENCES professores(id_professor) ON DELETE CASCADE
 );
 
-
-CREATE TABLE reservas (
-    id_reserva INT PRIMARY KEY AUTO_INCREMENT,
-    id_professor INT NOT NULL,
-    id_veiculo INT NOT NULL,
-    data_reserva DATE NOT NULL,
-    periodo ENUM('manhã', 'tarde', 'noite', 'integral') NOT NULL,
-    status ENUM('confirmada', 'cancelada', 'utilizada') DEFAULT 'confirmada',
-    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (id_professor) REFERENCES professores(id_professor),
-    FOREIGN KEY (id_veiculo) REFERENCES veiculos(id_veiculo)
-);
-
 CREATE TABLE tag_estacionamento (
     id_tag INT PRIMARY KEY AUTO_INCREMENT,
     id_professor INT NOT NULL,
@@ -87,4 +74,3 @@ CREATE TABLE problemas_tags (
     FOREIGN KEY (id_professor) REFERENCES professores(id_professor)
 );
 
--- No final, será realizado um “DROP TABLE reservas;” quando o novo sistema for implementado
