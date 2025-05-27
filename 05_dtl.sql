@@ -1,0 +1,8 @@
+START TRANSACTION;
+UPDATE produtos SET preco = preco * 1.10 WHERE id = 1;
+COMMIT;
+
+--START TRANSACTION:
+START TRANSACTION;
+UPDATE alunos SET nota = nota * 3 WHERE id = 1;
+COMMIT;

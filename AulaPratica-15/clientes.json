@@ -1,0 +1,19 @@
+{
+  "_id": "cpf12345678900",
+  "nome": "João da Silva",
+  "cpf": "123.456.789-00",
+  "telefone": "(61) 99999-9999",
+  "plano": "mensalista",
+  "veiculos": [
+    {
+      "placa": "ABC1234",
+      "tipo": "carro",
+      "cor": "prata"
+    },
+    {
+      "placa": "XYZ9876",
+      "tipo": "moto",
+      "cor": "preta"
+    }
+  ]
+}

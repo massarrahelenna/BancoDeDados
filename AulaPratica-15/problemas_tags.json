@@ -1,0 +1,9 @@
+{
+  "_id": "prob001",
+  "codigo_tag": "RF123TAG456",
+  "cpf_cliente": "123.456.789-00",
+  "data_reportagem": "2025-05-15",
+  "tipo_problema": "não reconhecida",
+  "descricao": "Tag não é reconhecida ao entrar no estacionamento.",
+  "status": "em análise"
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "tag001",
+  "codigo_tag": "RF123TAG456",
+  "cpf_cliente": "123.456.789-00",
+  "placa": "ABC1234",
+  "data_emissao": "2025-01-01",
+  "data_ativacao": "2025-01-02",
+  "status": "ativo",
+  "problema_reportado": null
+}

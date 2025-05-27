@@ -1,0 +1,11 @@
+{
+  "_id": "pgm001",
+  "cpf_cliente": "123.456.789-00",
+  "forma_pagamento": "Pix",
+  "valor_mensal": 200.00,
+  "data_inicio": "2025-05-01",
+  "data_vencimento": "2025-05-10",
+  "meses_gratis": 0,
+  "data_inicio_gratuidade": null,
+  "status": "pago"
+}

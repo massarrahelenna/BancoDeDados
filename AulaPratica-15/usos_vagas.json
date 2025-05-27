@@ -1,0 +1,13 @@
+{
+  "_id": "uso001",
+  "cpf_cliente": "123.456.789-00",
+  "nome_cliente": "João da Silva",
+  "placa": "ABC1234",
+  "tipo_veiculo": "carro",
+  "cor_veiculo": "prata",
+  "estacionamento_id": "est01",
+  "vaga": "A12",
+  "entrada": "2025-05-27T08:30:00Z",
+  "saida": "2025-05-27T18:45:00Z",
+  "valor_pago": 25.50
+}
